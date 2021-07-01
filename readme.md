@@ -9,6 +9,16 @@ Here's a tiny platform using Peer.JS and P5
 
 No dependencies besides Vue, P5 and Peer.js (included by CDN). You can drag the HTML into your browser and it'll just work!  
 
+You can also use querystrings, e.g. 
+
+```file:///Users/katecompton/Dropbox/Code/codoodle/index.html?room=hello&mode=host```
+
+Including 
+
+* "room=XXXXX" to set the starting room ID
+* "mode=host" to autohost that room
+* "mode=join" to autojoin that room
+* "autodraw=true" to start an AI drawing automatically
 
 ### Warnings
 
